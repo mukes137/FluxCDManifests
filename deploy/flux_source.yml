@@ -2,7 +2,7 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: k8sNginxApp
+  name: k8snginxapp
   namespace: flux-system
 spec:
   interval: 30s
